@@ -1,0 +1,33 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    width: fit-content;
+    position: relative;
+}
+
+/* p::before{
+    position: absolute;
+    top: 100%;
+    content: '';
+    width: 100%;
+    height: 3px;
+    background-color: red;
+}
+p::after{
+    content: '>';
+} */
+
+h1::first-line{
+     color: red;
+}
+h1::selection{
+    color: green;
+}
